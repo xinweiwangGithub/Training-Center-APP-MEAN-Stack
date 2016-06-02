@@ -1,0 +1,25 @@
+{
+  "name": "trainingcenterappmeanstack",
+  "description": "this is a training center app",
+  "main": "index.js",
+  "authors": [
+    "Xinwei Wang"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/xinweiwangGithub/Training-Center-APP-MEAN-Stack-",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "toastr": "^2.1.2",
+    "angular": "^1.5.6",
+    "angular-resource": "^1.5.6",
+    "angular-route": "^1.5.6"
+  }
+}
