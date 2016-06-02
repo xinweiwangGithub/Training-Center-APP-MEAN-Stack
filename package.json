@@ -1,0 +1,23 @@
+{
+  "name": "trainingcenterappmeanstack",
+  "version": "1.0.0",
+  "description": "this is a training center app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinweiwangGithub/Training-Center-APP-MEAN-Stack-.git"
+  },
+  "author": "Xinwei Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinweiwangGithub/Training-Center-APP-MEAN-Stack-/issues"
+  },
+  "homepage": "https://github.com/xinweiwangGithub/Training-Center-APP-MEAN-Stack-#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  }
+}
