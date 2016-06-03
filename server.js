@@ -4,19 +4,15 @@ var env = process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 var app = express();
 
-app.set('views', __dirname + '/server/views');
-app.set('view engine', 'jade');
+var config = require('./server/config/config')[env];
 
-app.get('*', function(req, res) {
-	res.render('index');
-});
+require('./server/config/express')(app, config);
 
-var port = 3333;
-app.listen(port);
-console.log('listening to port: ' + port);
+require('./server/config/mongoose')(config);
 
+require('./server/config/passport')();
 
+require('./server/config/routes')(app);
 
-
-
-
+app.listen(config.port);
+console.log('Listening on port ' + config.port + '...');
