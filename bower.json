@@ -1,19 +1,26 @@
 {
-  "name": "MultiVision",
-  "version": "0.0.0",
+  "name": "trainingcenter",
+  "description": "This is a training center for Techbow LLC.",
+  "main": "index.js",
   "authors": [
-    "joeeames <joeeames@gmail.com>"
+    "Jiyang Wang <jiyang.wang.us@gmail.com>"
   ],
-  "description": "\"Extreme Tech Training\"",
-  "license": "MIT",
-  "private": true,
+  "license": "ISC",
+  "homepage": "https://github.com/jiyangwang/TrainingCenter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "jquery": "~2.1.1",
-    "toastr": "~2.0.2",
-    "angular": "~1.2.16",
-    "angular-resource": "~1.2.16",
-    "angular-route": "~1.2.16",
-    "bootstrap": "~3.1.1",
-    "angular-mocks": "~1.2.16"
+    "jquery": "^2.2.4",
+    "toastr": "^2.1.2",
+    "angular": "^1.5.6",
+    "angular-resource": "^1.5.6",
+    "angular-route": "^1.5.6",
+    "bootstrap": "^3.3.6"
   }
 }
